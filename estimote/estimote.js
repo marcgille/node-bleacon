@@ -3,7 +3,7 @@ var crypto = require('crypto');
 var bignum = require('bignum');
 var debug = require('debug')('estimote');
 
-var NobleDevice = require('noble-device');
+var NobleDevice = require('noble-device-fork');
 
 var GENERIC_ACCESS_SERVICE_UUID     = '1800';
 var DEVICE_NAME_UUID                = '2a00';
