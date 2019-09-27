@@ -1,6 +1,6 @@
 var os = require('os');
 
-var bleno = require('bleno');
+var bleno = require('@abandonware/bleno');
 
 var platform = os.platform();
 

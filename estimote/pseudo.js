@@ -1,7 +1,7 @@
 var os = require('os');
 var util = require('util');
 
-var bleno = require('bleno');
+var bleno = require('@abandonware/bleno');
 
 var BlenoPrimaryService = bleno.PrimaryService;
 var BlenoCharacteristic = bleno.Characteristic;

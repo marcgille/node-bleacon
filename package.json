@@ -19,10 +19,10 @@
     "url": "https://github.com/sandeepmistry/node-bleacon/issues"
   },
   "dependencies": {
+    "@abandonware/bleno": "^0.5.1-1",
+    "@abandonware/noble": "^1.9.2-5",
     "bignum": "^0.13.0",
-    "bleno": "^0.4.1",
     "debug": "^2.2.0",
-    "noble": "^1.7.0",
     "noble-device": "^1.1.0"
   },
   "devDependencies": {

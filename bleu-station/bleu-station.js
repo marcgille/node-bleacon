@@ -3,7 +3,7 @@ var util = require('util');
 
 var debug = require('debug')('bleu-station');
 
-var noble = require('noble');
+var noble = require('@abandonware/noble');
 
 var DEVICE_NAME_UUID                        = '2a00';
 

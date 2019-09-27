@@ -4,7 +4,7 @@ var util = require('util');
 
 var debug = require('debug')('estimote-sticker');
 
-var noble = require('noble');
+var noble = require('@abandonware/noble');
 
 if(process.env.NOBLE_REPORT_ALL_HCI_EVENTS === undefined && os.platform() !== 'darwin') {
   debug("NOBLE_REPORT_ALL_HCI_EVENTS env variable has to be set to 1");

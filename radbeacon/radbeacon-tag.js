@@ -3,7 +3,7 @@ var util = require('util');
 
 var debug = require('debug')('radbeacon-tag');
 
-var noble = require('noble');
+var noble = require('@abandonware/noble');
 
 var SERVICE_UUID  = '248e4f81e46c4762bf3f84069c5c3f09';
 
